@@ -1,4 +1,5 @@
-package andinak
+package gyak_5;
+//csomagok
 
 import java.io.*;
 import java.io.FileNotFoundException;
@@ -7,6 +8,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
+//Osztalyok definicioja
 class Gyumolcs {
     //Attributumok
     String nev;
@@ -17,9 +19,11 @@ class Gyumolcs {
     double szenhidrat;
     double rost;
     
+    //Metodusok (ebben a feladatban nem lesz)
 }
 
 public class Gyak_5 {
+    //Fuggvenyek, metodusok
     public static void readFile(File f, ArrayList<Gyumolcs> gyum) {
         
         try {
@@ -101,4 +105,3 @@ public class Gyak_5 {
         System.out.println(f2(gyumolcskosar));
     }
 }
-
